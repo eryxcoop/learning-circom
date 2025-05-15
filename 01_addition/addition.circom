@@ -4,10 +4,10 @@ template AdditionProof() {
     // declaration of signals
     signal input a;
     signal input b;
-    signal output o;
+    signal output sum;
 
     // constraint
-    o <== a + b;
+    sum <== a + b;
 }
 
 component main {public [ a, b]} = AdditionProof();
